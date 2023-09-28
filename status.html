@@ -14,8 +14,8 @@
 
 </head>
 
-<body class="bg-green-300 p-10">
-    <h1 class="font-black m-3 items-center justify-center mb-5 flex">WhatsApp UI Challenge
+<body class="bg-green-300 p-8">
+    <h1 class="font-black m-3 items-center justify-center flex">WhatsApp UI Challenge
         <a href="https://github.com/danielace1/Whatsapp-UI-Tailwind" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="32" viewBox="0 0 24 24" class="fill-current">
                 <path
@@ -47,23 +47,105 @@
             </li>
             <li class="flex items-center flex-1 justify-between">
                 <div class="uppercase font-medium text-sm flex items-center space-x-2">
-                    <a href="./index.html">Chats</a>
+                    <a href="./index.html" class="text-gray-300 hover:text-white">Chats</a>
                     <span
                         class="bg-white text-emerald-700 p-0.5 rounded-full w-5 h-5 text-xs flex items-center justify-center">10</span>
                 </div>
                 <div class="uppercase font-medium text-sm flex items-center space-x-2 relative">
                     <a href="./status.html">Status</a>
-                    <div class="absolute right-1 top-8 w-full h-1 bg-white"></div>
+                    <div class="absolute right-0 top-8 w-12 h-1 bg-white"></div>
                 </div>
                 <div class="uppercase font-medium text-sm flex items-center space-x-2">
-                    <span>Calls</span>
+                    <a href="./calls.html" class="text-gray-300 hover:text-white">Calls</a>
                 </div>
             </li>
         </ul>
 
         <!-- Status Screen -->
-        <div class="bg-white ">
-
+        <div class="bg-white">
+            <div class="px-3 pt-4 pb-2 flex items-center justify-between space-x-4">
+                <div class="relative">
+                    <img src="./assets/img/user-none.png" alt="user-none" class="rounded-full w-16 h-16">
+                    <div class="absolute bottom-1 right-0 rounded-full cursor-pointer hover:bg-emerald-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                            class="bg-emerald-800 text-white rounded-full">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path d="M12 9v8m-4-4h8" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex-1 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-semibold">My Status</h4>
+                        <p class="text-gray-500 text-sm">Tap to add update status</p>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="text-emerald-800 fill-current">
+                            <path
+                                d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="text-sm">
+                <h4 class="px-3 py-2 text-gray-600 font-medium">Recent Updates</h4>
+                <div class="px-3 py-2 flex items-center space-x-4 cursor-pointer hover:bg-gray-100">
+                    <div>
+                        <img src="./assets/img/sri-shankar.jpg" alt="sri-shankar"
+                            class="rounded-full w-20 h-20 border p-0.5 border-green-800">
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Sri Shankar</h4>
+                        <small class="text-gray-500">1:10PM</small>
+                    </div>
+                </div>
+                <div class="px-3 py-2 flex items-center space-x-7 cursor-pointer hover:bg-gray-100">
+                    <div>
+                        <img src="https://ui-avatars.com/api/?name=Rahul&background=random&color=fff" alt="Rahul"
+                            class="rounded-full border p-0.5 border-green-800">
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Rahul</h4>
+                        <small class="text-gray-500">2:20PM</small>
+                    </div>
+                </div>
+                <div class="px-3 py-2 flex items-center space-x-7 cursor-pointer hover:bg-gray-100">
+                    <div>
+                        <img src="https://ui-avatars.com/api/?name=kevin&background=random&color=fff" alt="kevin"
+                            class="rounded-full border p-0.5 border-green-800">
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Kevin</h4>
+                        <small class="text-gray-500">3:25PM</small>
+                    </div>
+                </div>
+            </div>
+            <div class="text-sm grayscale">
+                <h4 class="px-3 py-2 text-gray-600 font-medium">Viewed Updates</h4>
+                <div class="px-3 py-2 flex items-center space-x-7 cursor-pointer hover:bg-gray-100">
+                    <div>
+                        <img src="https://ui-avatars.com/api/?name=Jai&background=random&color=fff" alt="Jai"
+                            class="rounded-full border p-0.5 border-gray-600">
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Jai</h4>
+                        <small class="text-gray-500">4:30PM</small>
+                    </div>
+                </div>
+                <div class="px-3 py-2 flex items-center space-x-7 cursor-pointer hover:bg-gray-100">
+                    <div>
+                        <img src="https://ui-avatars.com/api/?name=Danie&background=random&color=fff" alt="Danie"
+                            class="rounded-full border p-0.5 border-gray-600">
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Danie</h4>
+                        <small class="text-gray-500">6:00PM</small>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
