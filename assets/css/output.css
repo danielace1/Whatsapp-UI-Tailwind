@@ -639,8 +639,16 @@ video {
   bottom: 0.25rem;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
 .bottom-5 {
   bottom: 1.25rem;
+}
+
+.bottom-\[74px\] {
+  bottom: 74px;
 }
 
 .end-1 {
@@ -655,56 +663,20 @@ video {
   right: 0.5rem;
 }
 
-.right-5 {
-  right: 1.25rem;
-}
-
-.top-8 {
-  top: 2rem;
-}
-
-.bottom-4 {
-  bottom: 1rem;
-}
-
 .right-4 {
   right: 1rem;
 }
 
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.bottom-\[65px\] {
-  bottom: 65px;
-}
-
-.bottom-\[70px\] {
-  bottom: 70px;
-}
-
-.bottom-\[74px\] {
-  bottom: 74px;
-}
-
-.right-\[10px\] {
-  right: 10px;
-}
-
-.right-\[20px\] {
-  right: 20px;
+.right-5 {
+  right: 1.25rem;
 }
 
 .right-\[25px\] {
   right: 25px;
 }
 
-.right-\[23px\] {
-  right: 23px;
-}
-
-.right-\[22px\] {
-  right: 22px;
+.top-8 {
+  top: 2rem;
 }
 
 .isolate {
@@ -761,24 +733,12 @@ video {
           margin-inline-start: 14rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .box-border {
@@ -884,6 +844,10 @@ video {
   height: 0.25rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -906,10 +870,6 @@ video {
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-10 {
-  height: 2.5rem;
 }
 
 .w-10 {
@@ -1492,12 +1452,6 @@ video {
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
-.space-x-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2rem * var(--tw-space-x-reverse));
-  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 1;
 }
@@ -1940,6 +1894,11 @@ video {
   background-color: rgb(6 95 70 / var(--tw-bg-opacity));
 }
 
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
 .bg-green-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(134 239 172 / var(--tw-bg-opacity));
@@ -1953,11 +1912,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -2693,11 +2647,6 @@ video {
 .hover\:bg-gray-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .hover\:font-bold:hover {
